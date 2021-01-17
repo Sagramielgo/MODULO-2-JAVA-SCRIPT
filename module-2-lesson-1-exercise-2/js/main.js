@@ -1,5 +1,8 @@
 'use strict';
 
-let officeAddress;
-officeAddress = 'Calle San Joaquín, 3';
-officeAddress = 'Calle Leganitos, 24';
+
+
+
+
+let officeAddress = 'Calle San Joaquín, 3';
+const officeAddress2 = 'Calle Leganitos, 24';
