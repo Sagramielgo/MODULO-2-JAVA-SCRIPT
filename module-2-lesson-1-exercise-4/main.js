@@ -8,4 +8,4 @@ const winner2Element = document.querySelector('.name2');
 
 
 // Cambiamos el contenido del elemento, indicando que sea igual al actual, más una nueva palabra añadida
-titleElement.innerHTML = titleElement.innerHTML + winner1Element.innerHTML;
+titleElement.innerHTML = titleElement.innerHTML + winner2Element.innerHTML;
