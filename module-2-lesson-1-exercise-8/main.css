@@ -1,0 +1,12 @@
+* {
+  margin: 5%;
+}
+
+.link {
+  text-decoration: none;
+}
+.btn__one,
+.btn__two {
+  background-color: rgb(255, 0, 255);
+}
+ 
