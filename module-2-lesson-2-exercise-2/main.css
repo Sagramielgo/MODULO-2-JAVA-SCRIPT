@@ -1,7 +1,14 @@
+* {
+  margin: 30px 0 0 30px;
+}
+
 .main {
   background-color: pink;
 }
 
 .main__title {
   color: red;
+}
+.special {
+  color: purple;
 }
