@@ -1,7 +1,8 @@
 'use strict';
 
-const hour = 24;
-const year = 365;
-const life = 48;
+// avatar por defecto
+const DEFAULT_AVATAR = 'http://placehold.it/300x300';
+// avatar que eligió el usuario al registrarse
+let userAvatar = document.querySelector(".user__avatar");
+let userAvatar = 'http://www.fillmurray.com/300/300';
 
-console.log((hour * year) * life);
