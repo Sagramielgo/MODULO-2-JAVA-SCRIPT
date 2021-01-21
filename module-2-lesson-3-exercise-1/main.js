@@ -1,7 +1,15 @@
 'use strict';
 
-const age = document.querySelector(".age");
-const year = 365 * 24;
-const totalHours = year * parseInt(age.innerHTML)
 
-console.log(`Has vivido ${totalHours} horas`);
+// avatar por defecto
+const DEFAULT_AVATAR = 'http://placehold.it/300x300';
+// avatar que eligió el usuario al registrarse
+let userAvatar = 'http://www.fillmurray.com/300/300';
+
+
+const imageAvatar= document.querySelector(".user__avatar")
+
+
+
+
+imageAvatar.src = `${userAvatar || DEFAULT_AVATAR}`;
