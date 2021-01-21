@@ -10,6 +10,4 @@ let userAvatar = 'http://www.fillmurray.com/300/300';
 const imageAvatar= document.querySelector(".user__avatar")
 
 
-
-
 imageAvatar.src = `${userAvatar || DEFAULT_AVATAR}`;
