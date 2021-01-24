@@ -1,7 +1,7 @@
 'use strict';
 const number = document.querySelector(".Marinumber")
-const myNumber = parseInt(number.innerHTML)
-;
+const myNumber = parseInt(number.innerHTML);
+
 if (myNumber === 0) {
     console.log('El número es 0');
 }
