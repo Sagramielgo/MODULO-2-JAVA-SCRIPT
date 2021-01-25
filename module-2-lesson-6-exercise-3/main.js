@@ -13,11 +13,7 @@ adalaber1.job = "periodista";
    return 'Mi nombre es ' + this.name + " tengo " + this.age + " años y soy " + this.job + ".";
  };
  
- // Muestra en la consola 'Hola, me llamo María'
  console.log(adalaber1.showBio());
-
-
-
 
 
 const adalaber2 = document.querySelector (".description2");
@@ -26,8 +22,12 @@ adalaber2.name = 'Rocío';
 adalaber2.age = 25;
 adalaber2.job = "Actriz";
 }
-console.log(adalaber2.age);
 
 
 adalaber2.innerHTML = `Mi nombre es ${adalaber2.name} tengo ${adalaber2.age} años y soy ${adalaber2.job}.`;
 
+adalaber2.showBio = function() {
+    return 'Mi nombre es ' + this.name + " tengo " + this.age + " años y soy " + this.job + ".";
+  };
+  
+  console.log(adalaber2.showBio());
