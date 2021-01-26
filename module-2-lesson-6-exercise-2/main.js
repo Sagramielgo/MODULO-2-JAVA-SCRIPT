@@ -13,8 +13,14 @@ adalaber1.job = "periodista";
 
 
 
-adalaber1.run = phrase => `Yo estoy ${phrase}`;
-adalaber1.runAMarathon = distance => `una maratón de ${distance} km`;
- distance = 50;
-console.log(adalaber1.run('corriendo'), adalaber1.runAMarathon
-);
+adalaber1.run = () => {
+console.log('Estoy corriendo');
+};
+
+adalaber1.run ();
+
+adalaber1.runMarathon = (distance) => {
+    console.log(`Estoy corriendo una maratón de ${distance} kilómetros`);
+};
+
+adalaber1.runMarathon (50);
