@@ -10,14 +10,16 @@ for (let i = 0; i < score.length; i++) {
 
 console.log('La puntuación final es ' + acc); */
 
-const scores = [7, 3, 7, 8, 5];
+const piuke = [7, 3, 7, 8, 8];
 
-let acc = 0;
-
-for (let i = 0; i < scores.length; i++) {
-  acc += scores[i];
+function average(numbers) {
+  let acc = 0;
+  for (let i = 0; i < numbers.length; i++) {
+    acc += numbers[i];
+  }
+  const media = acc / numbers.length;
+  return media;
 }
+const averageResult = average(piuke);
 
-const media = acc / scores.length;
-
-console.log(`La media es ${media}`);
+console.log(`La media es ${averageResult}`);
