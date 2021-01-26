@@ -1,0 +1,8 @@
+* {
+  margin: 5%;
+}
+.test {
+  width: 100px;
+  height: 50;
+  border: 2px solid rebeccapurple;
+}

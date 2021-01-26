@@ -19,8 +19,15 @@ console.log('Estoy corriendo');
 
 adalaber1.run ();
 
-adalaber1.runMarathon = (distance) => {
-    console.log(`Estoy corriendo una maratón de ${distance} kilómetros`);
-};
 
-adalaber1.runMarathon (50);
+/* adalaber1.runMarathon = (distance) => {
+    console.log(`Estoy corriendo una maratón de ${distance} kilómetros`);
+}; */
+
+
+
+adalaber1.runMarathon = (distance) => { return `Estoy corriendo un maratón de ${distance} kilómetros.`};
+
+console.log(adalaber1.runMarathon (50));
+
+
