@@ -1,11 +1,11 @@
 'use strict';
-//mi array
-const numbers = [7, 3, 7, 8, 8];
+//declararamos un array
+const numbers = [7, 3, 7, 8, 8, 9];
 
 //mi variable acumulador
 let acc = 0;
 
-//mi bucle
+//bucle
 for (let i = 0; i < numbers.length; i++) {
   acc += numbers[i];
 }

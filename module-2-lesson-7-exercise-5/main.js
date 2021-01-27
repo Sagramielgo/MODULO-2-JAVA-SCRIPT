@@ -1,16 +1,5 @@
 'use strict';
-//EJEMPLO
-/* const score = [4, 2, 7, 8, 6, 7, 9, 1, 2, 6, 7];
-
-let acc = 0;
-
-for (let i = 0; i < score.length; i++) {
-  acc += score[i];
-}
-
-console.log('La puntuación final es ' + acc); */
-
-const piuke = [7, 3, 7, 8, 8];
+//declaramos una constante
 
 function average(numbers) {
   let acc = 0;
@@ -20,6 +9,20 @@ function average(numbers) {
   const media = acc / numbers.length;
   return media;
 }
+const piuke = [7, 3, 7, 8, 8];
 const averageResult = average(piuke);
 
 console.log(`La media es ${averageResult}`);
+
+// ARROW FUNCTION
+const averageArrow = (tali) => {
+  let acc = 0;
+  for (let i = 0; i < tali.length; i++) {
+    acc += tali[i];
+  }
+  const media = acc / tali.length;
+  return media;
+};
+const result = averageArrow([1, 2, 3, 4, 5, 6]);
+
+console.log(`La nueva media es ${result}`);
