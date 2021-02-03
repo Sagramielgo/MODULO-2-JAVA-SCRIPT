@@ -7,16 +7,18 @@ function get100Numbers() {
   }
   return myList;
 }
-console.log(get100Numbers());
+get100Numbers();
+console.log(myList);
 
 //Otra forma, introduciendo UN PARÁMETRO
 
 let otherList = [];
-function get50Numbers(list) {
+function get50Numbers(pepino) {
   for (let i = 1; i <= 50; i++) {
-    list.push(i);
+    pepino.push(i);
   }
-  const otherList = list;
+  const otherList = pepino;
   return otherList;
 }
-console.log(get50Numbers(otherList));
+get50Numbers(otherList);
+console.log(otherList);
